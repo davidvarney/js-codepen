@@ -39,6 +39,6 @@ class Calculator {
    * @return {[type]}        [description]
    */
   divide(numOne, numTwo) {
-    return numOne / numTwo;
+    return new Number(numOne) / new Number(numTwo);
   }
 }
